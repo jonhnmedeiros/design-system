@@ -1,0 +1,90 @@
+* {
+    font-family: 'Montserrat', 'Roboto', system-ui, -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--gray);
+    margin: 0 1rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* li {
+    list-style: none;
+}
+
+
+:root {
+    --white: #ffffff;
+    --gray: #E5E5E5;
+    --beige: #f2d1c2;
+    --greenLight: #c3d6d2;
+    --green: #538c7d;
+    --greenDark: #435956;
+    --orange: #d59065;
+    --wafer: #d1bead;
+    --black: #000000;
+}
+
+/* Typographic Styles */
+h1 {
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: 0.25rem;
+    margin-bottom: 4rem;
+    color: var(--green);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.75;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.33;
+    margin-bottom: 2rem;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+h5 {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+h6 {
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
